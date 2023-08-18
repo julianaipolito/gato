@@ -1,0 +1,67 @@
+.sun {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.cloud {
+	width: 75px;
+	height: 15px;
+	background: white;
+	border-radius: 20px 5px 10px 5px;
+	animation: mymove 15s infinite;
+	position: relative;
+	display:inline-block;
+}
+
+img {
+	width: 75px;
+	height: 75px;
+}
+
+img:hover {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.spacer {
+	width: 50px;
+	height: 50px;
+	background: #66ccff;
+	position: static;
+	display: inline-block;
+	margin: 0px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.grass {
+	width: 2000px;
+	height: 700px;
+	background: green;
+	position: static;
+
+	display: flex;
+	border-radius: 0px 0px 0px 50px;
+}
+
+@keyframes mymove {
+	from {
+		left: -100px;
+	}
+	to {
+		left: 1800px;
+	}
+}
+
+@keyframes mymove {
+	from {
+		left: -100px;
+	}
+	to {
+		left: 2000px;
+	}
+}
+
+@keyframes runnin {
+}
